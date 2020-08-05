@@ -1,0 +1,32 @@
+.ion,
+.ion-android-close:before,
+.ion-android-menu:before,
+.ion-chevron-left:before,
+.ion-chevron-right:before{
+    display: inline-block;
+    font-family: Ionicons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ion-chevron-right:before {
+    content: "\f125"
+}
+
+.ion-chevron-left:before {
+    content: "\f124"
+}
+
+.ion-android-menu:before {
+    content: "\f394";
+}
+.ion-android-close:before {
+    content: "\f2d7";
+}
